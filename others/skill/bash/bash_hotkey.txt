@@ -1,0 +1,25 @@
+﻿【删除】
+ctrl + k      剪切光标【后面】所有字符相当于VIM里d shift+$
+ctrl + u      剪切光标【前面】所有字符相当于VIM里d shift+^
+ctrl + y      粘贴刚才所剪切的字符
+
+
+【移动】
+ctrl + a      将光标移动到命令行【开头】相当于VIM里shift+^
+ctrl + e      将光标移动到命令行【结尾】处相当于VIM里shift+$
+
+
+【替换】
+^oldstr^newstr    替换前一次命令中字符串   
+
+
+【shell控制】
+ctrl + s	锁住终端的输入输出
+ctrl + q	解锁终端
+
+ctrl + l	清屏相当于命令clear
+
+ctrl + z	将进程放入后台，可以用fg命令将放入后台的命令调入前台。
+ctrl + c	终止
+ctrl + d	关闭shell。
+

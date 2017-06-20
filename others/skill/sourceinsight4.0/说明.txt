@@ -1,0 +1,4 @@
+1.	crtl + / 来注释的功能是通过macro实现的，
+	需要在base工程里添加，之后，在key assignment里分配。
+	
+2.	Snippets里的函数需要单独导入、导出，而并不存在于全局的config里。

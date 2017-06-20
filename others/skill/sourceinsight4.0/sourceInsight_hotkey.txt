@@ -1,0 +1,131 @@
+﻿【编辑】
+Ctrl+K			复制一行(之后变成选中状态)
+Ctrl+Shift+K	复制右边所有
+
+Ctrl+U			剪切一行
+Ctrl+;			剪切本行右边所有
+Ctrl+,			剪切一个单词（连同其后的空格）
+
+Ctrl+P			粘贴一行（光标在上行任何位置，均智能粘贴到下一行，用于crtl+k后）
+
+Ctrl+I			在上面新建一空行
+Ctrl+Shift+I	在下面新建一空行（光标切换到下面的空行。光标在行中，欲新开一行时，不必移到末尾再回车！）
+Ctrl+Enter		在下面插入一空行（光标不动。键入{}之后可以使用）
+
+Ctrl+J			将下面行折叠上来
+
+Ctrl+Z			撤销
+Ctrl+Y			重做
+
+Ctrl+Up(Down)	将选中代码向上、下移动（Drag Line Up）
+
+Ctrl+\			Repeat Typing,将刚才输入的内容重复n次
+Alt+D			Restore Lines，恢复本行内容
+
+Edit: Indent Left                         :  F9，以tab键为单位，移动光标所在行的位置
+Edit: Indent Right                        :  F10
+
+【移动】
+Ctrl+Shift+;	行尾(可用于移到末尾并添加分号，从而快速结束一行）
+Home			行首
+
+Ctrl+End		文件底部
+Ctrl+Home		文件顶部
+
+Ctrl+PgUp		下滚半屏
+Ctrl+PgDn		上滚半屏
+
+Alt+]			匹配当前{[()]}处的另一半
+Ctrl+Shift+[	匹配局部最外层{[()]}等
+			
+Alt+Down		下移屏幕，光标不动
+Alt+Up			上移屏幕，光标不动
+
+小键盘+				下一个函数
+-（Ctrl+Shift+-）	上一个函数 Function Up
+
+Shift+Tab		以4字符回移光标位置(可用于将光标快速往前回退多个字符)
+
+
+【跳转】
+Ctrl+G			定位到N行
+Ctrl+L			跳到搜索结果的连接列表处
+Ctrl+=			跳到定义出
+	
+Symbol: Symbol Info...                    :  Alt+=, Ctrl+R Click (select)，弹出函数、变量定义小窗口
+
+Alt+,			后退
+Alt+.			向前
+
+Ctrl+Shift+.	Go To Next Change，转到下一个修改
+
+
+【选择】
+Shift+Right		向右选择
+Shift+Left		向左选择
+
+Ctrl+Left		定位到单词左边
+Ctrl+Right		定位到单词右边
+
+Ctrl+Shift+Left		选中单词左边
+Ctrl+Shift+Right	选中单词右边
+Ctrl+Alt+W			选中当前单词
+
+Shift+Down(PgDn)	向下选择
+Shift+Up(PgUp)		向上选择
+
+Shift+End			选中光标至行尾的字符
+Shift+Home			选中光标至行首的字符
+
+Shift+L Click		（左键单击）Select To，选中到光标处
+
+Ctrl+Shift+End		选择到文件尾
+	
+Ctrl+(破折号-)		选择光标所在的一块 {} ()
+Alt+=				选中光标后匹配的一块
+Ctrl+Shift+M		Selection History
+
+Alt+H				高亮
+
+
+【搜索】
+Search: Search...                         :  Ctrl+F
+Search: Search Project...                 :  Ctrl+Alt+F
+Search: Search Files...                   :  Ctrl+Shift+F, Ctrl+Alt+Shift+F
+Search: Search Web...                     :  Ctrl+Shift+B，百度搜索
+
+Ctrl+H			替换
+Ctrl+'			Smart Rename，智能重命名所有引用处。
+F12				在各个匹配项之间切换
+
+Search: Search Backward                   :  F3，以上次选中字符，直接向上搜索
+Search: Search Backward for Selection     :  Shift+F3，以当前选中字符，直接向上搜索
+Search: Search Forward                    :  F4，以上次选中字符，直接向下搜索
+Search: Search Forward for Selection      :  Shift+F4，以当前选中字符，直接直接向下搜索
+
+Navigation: Go To Previous Link           :  Shift+F8，对于在project中搜索。
+Navigation: Go To Next Link               :  Shift+F9，对于在project中搜索。
+
+
+【控制】
+Ctrl+W			关闭文件
+Ctrl+Shift+W	关闭所有文件
+
+Alt+W			浏览文件列表（直接输入文件前面对应的数字字母即可跳转）Pick Window...
+
+Ctrl+Shift+Space	刷新屏幕（如屏幕出现诡异显示）,Redraw Screen
+
+Ctrl+Tab,		切换文件
+Ctrl+Shift+Tab
+
+Alt+L			切换到左侧的语法窗口,进入搜索状态，等待输入
+Ctrl+Alt+L		切换到右侧的file list
+Ctrl+Alt+S		切换到右侧的symbol list
+Ctrl+Alt+R		Refresh Relation Window  
+
+Outline: Toggle Expansions                :  Ctrl+Alt+-
+Outline: Collapse All （折叠函数）        :  Ctrl+Alt+Shift+-
+Outline: Expand（展开函数）               :  Ctrl+Alt++
+Outline: Expand All                       :  Ctrl+Alt+Shift++
+
+

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceInsightCodeSnippets
+	AppVer="4.00.0086"
+	AppVerMinReader="4.00.0019"
+	>
+	<SnippetList>
+		<Snippet
+			Name="case"
+			Description="case label"
+			Language="C Family"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>case $label$:
+	$end$
+	break;
+
+
+</Snippet>
+		<Snippet
+			Name="cla"
+			Description="class xxx  { public: ...  };"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>class $class_name$
+{
+	public:
+		$line$ 
+		
+};
+
+</Snippet>
+		<Snippet
+			Name="coutv"
+			Description="cout &lt;&lt; $value$ &lt;&lt; endl;"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			><![CDATA[std::cout << $value$ << std::endl;
+
+]]></Snippet>
+		<Snippet
+			Name="cpp"
+			Description="#ifdef __cplusplus  extern &quot;C&quot;"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>#ifdef __cplusplus 
+extern "C" { 
+#endif
+
+$func$;
+
+#ifdef __cplusplus 
+} 
+#endif
+
+</Snippet>
+		<Snippet
+			Name="date_time"
+			Description="time for now"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="0"
+			>$date$  $time$
+ 
+
+</Snippet>
+		<Snippet
+			Name="dowh"
+			Description="do{  ...   }while( );"
+			Language="All with { }"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>do
+{
+	$block$
+}
+while($condition$);
+
+</Snippet>
+		<Snippet
+			Name="for"
+			Description="for (   ;   ;  )"
+			Language="All with { }"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			><![CDATA[for($i$ = $start$; $i$ < $limit$; ++$i$)
+{
+	$end$;
+}
+]]></Snippet>
+		<Snippet
+			Name="fori"
+			Description="for( int i = 0 ;    ;    )"
+			Language="All with { }"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			><![CDATA[for(int $i$ = $start$; $i$ < $limit$; ++$i$)
+{
+	$end$;
+}
+]]></Snippet>
+		<Snippet
+			Name="func"
+			Description="type  xxx( ... ){  ...  }"
+			Language="C/C++, C#"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>$type$ $function_name$($params$)
+{
+	$line$;
+	
+	return 0;
+}
+
+
+</Snippet>
+		<Snippet
+			Name="if"
+			Description="if ( ) { . . . }"
+			Language="All with { }"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>if($i$)
+{
+	$end$;
+}
+</Snippet>
+		<Snippet
+			Name="ifel"
+			Description="if{  } else{  }"
+			Language="All with { }"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>if($i$)
+{
+	$trueblock$;
+}
+else
+{
+	$falseblock$;
+}
+</Snippet>
+		<Snippet
+			Name="ifelif"
+			Description="if{  } else if( ) {  } else{  }"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>if($i$)
+{
+	$trueblock$;
+}
+else if($i2$)
+{
+	$trueblock2$;
+}
+else
+{
+	$falseblock$;
+}
+
+</Snippet>
+		<Snippet
+			Name="inc"
+			Description="#include &lt;$val$&gt;"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			><![CDATA[#include <$val$>
+
+]]></Snippet>
+		<Snippet
+			Name="inc2"
+			Description="#include &quot;$val$&quot;"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>#include "$val$"
+
+</Snippet>
+		<Snippet
+			Name="switch"
+			Description="switch ( ) { ...  }"
+			Language="C/C++, C#"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>switch($value$)
+{
+	case $case$:
+		$line$;
+		break;
+	default:
+		break;
+}
+</Snippet>
+		<Snippet
+			Name="while"
+			Description="while ( ) {  ...  }"
+			Language="All with { }"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>while($cond$)
+{
+	$end$;
+}
+</Snippet>
+		<Snippet
+			Name="zk"
+			Description="{ xxx ; }"
+			Language="All"
+			Enabled="1"
+			EnableVariables="1"
+			StartOnNewLine="1"
+			>{
+	$line$;
+}
+</Snippet>
+	</SnippetList>
+</SourceInsightCodeSnippets>

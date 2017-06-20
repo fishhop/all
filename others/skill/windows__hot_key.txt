@@ -1,0 +1,36 @@
+﻿【窗口】
+Ctrl+W				关闭窗口
+Alt+F4				关闭程序
+
+Ctrl+N				新建窗口
+Ctrl+Shift+N		新建文件夹
+
+Alt+Tab				窗口中切换(此时保持按住Alt时可以用箭头选择)
+Ctrl+Alt+Tab		用方向键在窗口中切换
+
+
+【运行】
+Win+1~9				打开/最小化任务栏对应软件
+Shift+Win+1~9		打开/最小化任务栏对应软件（新建窗口）
+
+Ctrl+Z				撤销
+Ctrl+Y				重做
+Ctrl+D				删除
+
+Ctrl+shift+左击		以管理员身份运行
+Shift+右击			在此处打开命令行窗口
+
+F5(Ctrl+R)			刷新
+Esc					取消当前操作
+Ctrl+Shift+Esc		打开任务栏管理器
+
+
+【资源管理器】
+Alt+D				选中地址栏
+
+Alt+左				查看上一个文件夹
+Alt+右				查看下一个文件夹
+Alt+上				查看父文件夹
+
+Alt+Enter			显示属性
+

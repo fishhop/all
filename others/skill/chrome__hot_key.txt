@@ -1,0 +1,40 @@
+﻿【标签和窗口】
+Ctrl+N				新建窗口
+
+Ctrl+T				新建标签页
+Ctrl+Shift+T		打开上次关闭的标签页
+
+Alt+F4				关闭当前窗口
+Ctrl+W 				关闭当前标签页、弹出窗口
+
+【切换】
+Ctrl+Tab 			切换到下一个标签页
+Ctrl+Shift+Tab		切换到上一个标签页
+
+Alt+D 				选中地址栏
+
+【控制】
+Ctrl+R				重载网页
+Ctrl+F5				重载网页，忽略缓存
+
+Esc					停止载入
+Shift+Esc			打开任务管理器
+
+Ctrl+Shift+Delete	清除浏览数据
+
+Ctrl+F				查找
+
+【阅读】
+F11					全屏
+
+Ctrl++，Ctrl+滚轮	放大
+Ctrl+-，Ctrl+滚轮	缩小
+
+Ctrl+0				恢复%100缩放
+
+空格				向下滚动网页
+
+Home				转至网页顶部
+End					转至网页底部
+
+Shift+滚轮			在网页上横向滚动

@@ -1,0 +1,1 @@
+extern void fun1_0(void);
